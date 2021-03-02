@@ -1,0 +1,25 @@
+{
+    "name": "ferdousanam/sanctum-support",
+    "description": "This package contains support for laravel sanctum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferdous Anam",
+            "email": "ferdous.anam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Anam\\SanctumSupport\\": "src/"
+        },
+        "files": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anam\\SanctumSupport\\SanctumSupportServiceProvider"
+            ]
+        }
+    }
+}
